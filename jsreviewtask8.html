@@ -6,20 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+		<!-- <input type="text" id="inp1"> -->
+		<!-- <input type="text" id="inp2"> -->
+		<!-- <button type="button" id="but1">click</button> -->
 	<script>
-	let a=prompt("enter a age");
-		let b=prompt("enter b age");
-		let c=prompt("enter c age");
-		if(a>b&&a<c){
-			console.log("a is older");
+		<!-- document.getElementById("inp1"); -->
+	<!-- let a=prompt("enter a age"); -->
+		<!-- let b=prompt("enter b age"); -->
+		<!-- let c=prompt("enter c age"); -->
+		<!-- if(a>b&&a<c){ -->
+			<!-- console.log("a is older"); -->
+		<!-- } -->
+		<!-- else if(b>c&&b>a){ -->
+			<!-- console.log("b is older"); -->
+		<!-- } -->
+		<!-- else{ -->
+			<!-- console.log("c is older"); -->
+		<!-- } -->
+		<!-- let age=prompt("enter a age"); -->
+		<!-- let sex=prompt("enter a sex"); -->
+		<!-- if(age>18&&sex=="female"){ -->
+			<!-- console.log("only working in urban areas"); -->
+		<!-- } -->
+		<!-- else if(sex=="male"){ -->
+			<!-- if(age=>20&&age<=40){ -->
+				<!-- console.log("working in anywhere") -->
+			<!-- } -->
+			<!-- else{ -->
+				<!-- if(age=>40&&age<=60){ -->
+					<!-- console.log("working in urban") -->
+				<!-- } -->
+			<!-- } -->
+		<!-- } -->
+		<!-- else{ -->
+			<!-- console.log("error") -->
+		<!-- } -->
+		let x=prompt("enter x number");
+		let y=prompt("enter y number");
+		let z=prompt("enter z number");
+		if(x>y&&y>z){
+			if(y>z){
+				console.log(z,y,x)
+			}
+			else{
+				console.log(y,z,x)
+			}
 		}
-		else if(b>c&&b>a){
-			console.log("b is older");
+		else if(y>x&&y>z){
+			if(x>z){
+				console.log(z,x,y)
+			}
+			else{
+				console.log(x,z,y)
+			}
 		}
-		else{
-			console.log("c is older");
+		else if(z>x&&z>y){
+			if(x>y){
+				console.log(y,x,z)
+			}
+			else{
+				console.log(x,y,z)
+			}
 		}
-	
+		
 	</script>
 </body>
 </html>	
